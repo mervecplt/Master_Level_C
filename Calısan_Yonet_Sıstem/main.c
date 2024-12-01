@@ -8,7 +8,7 @@ struct employee{
   int code;
   char job[20];
   int exp;
-  int age;
+  int  age;
 };
 
 struct employee emp[20];

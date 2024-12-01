@@ -5,7 +5,7 @@
 struct library{
     char book_name[20];
     char  author[20];
-    int pages;
+    int  pages;
     float   price;
 };
 
@@ -13,7 +13,7 @@ int main()
 {
     char author[20];
 	struct library lib[100];
-	int i=0,j,input=0;
+	int i=0 , j ,input=0;
 
 
 	while(input != 5){
