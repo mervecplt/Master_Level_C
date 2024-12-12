@@ -3,13 +3,13 @@
 
 
 int game(char you,char computer){
-    if(you == 'T' && computer == 'K'){
+    if(you == 'T' &&  computer == 'K'){
         return 0;
     }
     else if(you == 'K'  && computer =='T'){
         return 1;
     }
-    else if(you == 'T' && computer =='M'){
+    else if(you == 'T'  && computer =='M'){
         return 1;
     }
     else if(you == 'M' && computer =='T'){
@@ -34,7 +34,7 @@ int main()
     char you,computer;
 
     srand(time(NULL));
-    n=rand()%100;
+    n=rand() % 100;
 
 
 
@@ -49,7 +49,7 @@ int main()
               computer='M';
         }
 
-        printf("\n\n\n\n\n\n\n\n\t\t\t\t   Tas Kagit Makas Oyunu\n\n\n\n\n\n\n\n");
+        printf("\n\n\n\n\n\n\n\n\t\t\t\t    Tas Kagit Makas Oyunu\n\n\n\n\n\n\n\n");
         printf("\t\t\tTas Icin T Kagit Icin K Makas Icin M Giriniz");
 
         scanf("%c",&you);

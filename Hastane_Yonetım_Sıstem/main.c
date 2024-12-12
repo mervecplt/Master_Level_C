@@ -47,7 +47,7 @@ void sortByBeds(struct Hospital  hospitals[],int n){
   int i,j;
     for(i=0;i<n-1;i++){
         for(j=0;j<n-i-1;j++){
-             if(hospitals[j].beds < hospitals[j+1].beds){
+             if(hospitals[j].beds <  hospitals[j+1].beds){
                 struct Hospital temp = hospitals[j];
                 hospitals[j]=hospitals[j+1];
                 hospitals[j+1]=temp;
@@ -63,7 +63,7 @@ void sortByName(struct Hospital hospitals[],int n){
              if(strcmp(hospitals[j].name,hospitals[j+1].name)>0){
                 struct Hospital temp = hospitals[j];
                 hospitals[j]=hospitals[j+1];
-                hospitals[j+1]=temp;
+                hospitals[j+1]=temp ;
              }
         }
     }
