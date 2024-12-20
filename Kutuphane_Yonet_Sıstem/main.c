@@ -25,18 +25,18 @@ int main()
         printf("5. Cikis");
 
         printf("\nLutfen seciminizi yapiniz ");
-        scanf("%d", &input);
+        scanf("%d",  &input);
 
         switch(input){
         case 1:
             printf("Kitabin adini giriniz = ");
             scanf("%s",&lib[i].book_name);
             printf("Kitabin yazarini giriniz = ");
-            scanf("%s",&lib[i].author);
+            scanf("%s", &lib[i].author);
             printf("Kitabin sayfa sayisini giriniz = ");
             scanf("%d",&lib[i].pages);
             printf("Kitabin fiyati giriniz = ");
-            scanf("%f",&lib[i].price);
+            scanf("%f", &lib[i].price);
             i++;
             break;
 

@@ -15,8 +15,8 @@ struct Patient{
     char name[50];
     int age;
 };
-void printHospital(struct Hospital hospital){
-    printf("Hastane: %s\n",hospital.name);
+void printHospital(struct  Hospital hospital){
+    printf("Hastane: %s\n" ,hospital.name);
     printf("Sehir: %s\n",hospital.city);
     printf("Toplam Yatak Kapasitesi: %d\n",hospital.beds);
     printf("Gunluk Kalma Ucreti: %.2f\n",hospital.price);

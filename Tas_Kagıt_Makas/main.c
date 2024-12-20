@@ -67,7 +67,7 @@ int main()
             printf("\n\n\t\t\tBravo! Oyunu kazandin!\n");
         }
         else{
-             printf("\n\n\t\t\tMalesef! Oyunu kaybettin!\n");
+             printf("\n\n\t\t\tMalesef ! Oyunu kaybettin!\n");
         }
 
         printf("\t\t\tSenin secimin: %c Bilgisayarin secimi: %c",you,computer);
