@@ -9,7 +9,7 @@ int game(char you,char computer){
     else if(you == 'K'  && computer =='T'){
         return 1;
     }
-    else if(you == 'T'  && computer =='M'){
+    else if(you == 'T'   && computer =='M'){
         return 1;
     }
     else if(you == 'M' && computer =='T'){

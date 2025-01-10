@@ -13,7 +13,7 @@ struct Hospital{
 
 struct Patient{
     char name[50];
-    int age;
+    int  age;
 };
 void printHospital(struct  Hospital hospital){
     printf("Hastane: %s\n" ,hospital.name);
