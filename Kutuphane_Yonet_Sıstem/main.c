@@ -25,7 +25,7 @@ int main()
         printf("5. Cikis");
 
         printf("\nLutfen seciminizi yapiniz ");
-        scanf("%d",  &input);
+        scanf("%d" ,  &input);
 
         switch(input){
         case 1:

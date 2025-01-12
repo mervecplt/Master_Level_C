@@ -15,7 +15,7 @@ struct Patient{
     char name[50];
     int  age;
 };
-void printHospital(struct  Hospital hospital){
+void printHospital(struct  Hospital  hospital){
     printf("Hastane: %s\n" ,hospital.name);
     printf("Sehir: %s\n",hospital.city);
     printf("Toplam Yatak Kapasitesi: %d\n",hospital.beds);
@@ -26,7 +26,7 @@ void printHospital(struct  Hospital hospital){
 }
 void printPatient(struct Patient patient){
     printf("Hastanin adi %s\n",patient.name);
-    printf("Hastanin yasi %d\n",patient.age);
+    printf("Hastanin yasi  %d\n",patient.age);
     printf("\n");
 
 }

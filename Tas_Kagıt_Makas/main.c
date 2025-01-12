@@ -6,7 +6,7 @@ int game(char you,char computer){
     if(you == 'T' &&  computer == 'K'){
         return 0;
     }
-    else if(you == 'K'  && computer =='T'){
+    else if(you ==  'K'  && computer =='T'){
         return 1;
     }
     else if(you == 'T'   && computer =='M'){
