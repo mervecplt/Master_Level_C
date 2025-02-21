@@ -8,7 +8,7 @@ struct Hospital{
     int beds;
     float price;
     float rating;
-    int reviews;
+    int  reviews;
 };
 
 struct Patient{

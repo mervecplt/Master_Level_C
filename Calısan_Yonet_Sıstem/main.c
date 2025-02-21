@@ -4,7 +4,7 @@
 #include <string.h>
 
 struct employee{
-  char name[20];
+  char  name[20];
   int code;
   char job[20];
   int  exp;

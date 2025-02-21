@@ -18,7 +18,7 @@ int game(char you,char computer){
      else if(you == 'K' && computer =='M'){
         return 0;
     }
-    else if(you == 'M' && computer =='K'){
+    else if(you == 'M' &&  computer =='K'){
         return 1;
     }
     else{
@@ -27,18 +27,18 @@ int game(char you,char computer){
 }
 
 // Driver Code
-int main()
+int  main()
 {
 
-    int n,result;
-    char you,computer;
+    int  n,result;
+    char  you,computer;
 
     srand(time(NULL));
-    n=rand() % 100;
+    n=rand()  % 100;
 
 
 
-        if(n < 33){
+        if(n  < 33){
                 computer='T';
         }
 

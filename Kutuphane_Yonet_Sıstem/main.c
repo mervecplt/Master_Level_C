@@ -5,7 +5,7 @@
 struct library{
     char book_name[20];
     char   author[20];
-    int  pages;
+    int   pages;
     float   price;
 };
 
