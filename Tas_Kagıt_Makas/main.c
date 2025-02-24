@@ -22,7 +22,7 @@ int game(char you,char computer){
         return 1;
     }
     else{
-        return -1;
+        return  -1;
     }
 }
 
@@ -34,7 +34,7 @@ int  main()
     char  you,computer;
 
     srand(time(NULL));
-    n=rand()  % 100;
+    n=rand() % 100;
 
 
 

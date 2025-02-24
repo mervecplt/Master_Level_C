@@ -12,8 +12,8 @@ struct library{
 int main()
 {
     char author[20];
-	struct library lib[100];
-	int i=0 , j ,input=0;
+	struct library  lib[100];
+	int i=0 ,j,input=0;
 
 
 	while(input != 5){
@@ -25,7 +25,7 @@ int main()
         printf("5. Cikis");
 
         printf("\nLutfen seciminizi yapiniz ");
-        scanf("%d" ,  &input);
+        scanf("%d", &input);
 
         switch(input){
         case 1:
